@@ -1,0 +1,11 @@
+[package]
+name = "hw9"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = "0.15.6"
+ndarray-rand = "0.14.0"
+csv = "1.2.2"
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.8.5"
